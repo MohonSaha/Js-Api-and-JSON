@@ -12,3 +12,20 @@ const stringfied = JSON.stringify(user);
 
 
 // More complex object:
+
+const shop ={
+    owner: 'Mohon Saha',
+    address: {
+        street: 'Kochukhet Vuter Goli',
+        city: 'kafrul',
+        country: 'Bangladesh'
+    },
+    products: ['laptop', 'mouse', 'monitor', 'camera'],
+    margin: 45000,
+    isOpen: true,
+    isNew: false
+}
+
+console.log(shop);
+const stringfiedShop = JSON.stringify(shop);
+console.log(stringfiedShop);
